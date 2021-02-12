@@ -21,14 +21,6 @@ public class UsoEmpleado {
         Jefatura jefe_finanzas = (Jefatura) misEmpleados[5];
         jefe_finanzas.estableceIncentivo(10000);
 
-        /*
-         * for (int i = 0; i < misEmpleados.length; i++) {
-         * misEmpleados[i].subeSueldo(10); } for (int i = 0; i < misEmpleados.length;
-         * i++) { System.out.println("Nombre: " + misEmpleados[i].dameNombre() +
-         * " Sueldo: " + misEmpleados[i].dameSueldo() + " Fecha de alta: " +
-         * misEmpleados[i].dameFechaContrato()); }
-         */
-
         for (Empleado e : misEmpleados) {
             e.subeSueldo(10);
         }
