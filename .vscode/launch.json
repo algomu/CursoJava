@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsoEmpleado",
+            "request": "launch",
+            "mainClass": "poo.UsoEmpleado",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uso_Vehiculo",
+            "request": "launch",
+            "mainClass": "poo.Uso_Vehiculo",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Areas",
+            "request": "launch",
+            "mainClass": "primerospasos.Areas",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompruebaMail",
+            "request": "launch",
+            "mainClass": "primerospasos.CompruebaMail",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Edad",
+            "request": "launch",
+            "mainClass": "primerospasos.Edad",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch EjemploArray2D",
+            "request": "launch",
+            "mainClass": "primerospasos.EjemploArray2D",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaEjemplo1",
+            "request": "launch",
+            "mainClass": "primerospasos.EntradaEjemplo1",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaEjemplo2",
+            "request": "launch",
+            "mainClass": "primerospasos.EntradaEjemplo2",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaNumeros",
+            "request": "launch",
+            "mainClass": "primerospasos.EntradaNumeros",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Juego",
+            "request": "launch",
+            "mainClass": "primerospasos.Juego",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch ManipulaCadenas",
+            "request": "launch",
+            "mainClass": "primerospasos.ManipulaCadenas",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch ManipulaCadenas2",
+            "request": "launch",
+            "mainClass": "primerospasos.ManipulaCadenas2",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch ManipularCadenas3",
+            "request": "launch",
+            "mainClass": "primerospasos.ManipularCadenas3",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch OtraPrueba",
+            "request": "launch",
+            "mainClass": "primerospasos.OtraPrueba",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Password",
+            "request": "launch",
+            "mainClass": "primerospasos.Password",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch PesoIdeal",
+            "request": "launch",
+            "mainClass": "primerospasos.PesoIdeal",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prueba",
+            "request": "launch",
+            "mainClass": "primerospasos.Prueba",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsoBucleFor",
+            "request": "launch",
+            "mainClass": "primerospasos.UsoBucleFor",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uso_Arrays",
+            "request": "launch",
+            "mainClass": "primerospasos.Uso_Arrays",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uso_Arrays2",
+            "request": "launch",
+            "mainClass": "primerospasos.Uso_Arrays2",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uso_Arrays_Bidimensionales",
+            "request": "launch",
+            "mainClass": "primerospasos.Uso_Arrays_Bidimensionales",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uso_Arrays_Num",
+            "request": "launch",
+            "mainClass": "primerospasos.Uso_Arrays_Num",
+            "projectName": "CursoJava_3c3cccfe"
+        }
+    ]
+}
