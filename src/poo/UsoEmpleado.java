@@ -21,6 +21,12 @@ public class UsoEmpleado {
         Jefatura jefe_finanzas = (Jefatura) misEmpleados[5];
         jefe_finanzas.estableceIncentivo(10000);
 
+        System.out.println(jefe_finanzas.tomar_decisiones("regalar un gatito a cada empleado."));
+        System.out.println(jefe_finanzas.dameNombre() + " tiene una prima de " + jefe_finanzas.establece_bonus(500));
+
+
+        System.out.println(misEmpleados[3].dameNombre() + " tiene una bonus de: " + misEmpleados[3].establece_bonus(50));;
+
         for (Empleado e : misEmpleados) {
             e.subeSueldo(10);
         }
@@ -35,7 +41,7 @@ public class UsoEmpleado {
 
 }
 
-class Empleado implements Comparable {
+class Empleado implements Comparable, Trabajadores {
 
     // CONSTRUCTORES
     public Empleado(String nom, double sue, int anyo, int mes, int dia) {
@@ -45,6 +51,10 @@ class Empleado implements Comparable {
         altacontrato = calendario.getTime();
         ++id_siguiente;
         id = id_siguiente;
+    }
+
+    public double establece_bonus(double gratificacion) {
+        return Trabajadores.bonus_base + gratificacion;
     }
 
     public Empleado(String nom) {
@@ -70,12 +80,12 @@ class Empleado implements Comparable {
         sueldo += aumento;
     }
 
-    public int compareTo(Object miObjeto){
+    public int compareTo(Object miObjeto) {
         Empleado otroEmpleado = (Empleado) miObjeto;
-        if(this.sueldo<otroEmpleado.sueldo){
+        if (this.sueldo < otroEmpleado.sueldo) {
             return 1;
         }
-        if (this.sueldo>otroEmpleado.sueldo) {
+        if (this.sueldo > otroEmpleado.sueldo) {
             return -1;
         }
         return 0;
@@ -89,7 +99,7 @@ class Empleado implements Comparable {
 
 }
 
-class Jefatura extends Empleado {
+class Jefatura extends Empleado implements Jefes {
 
     public Jefatura(String nom, double sue, int anyo, int mes, int dia) {
         super(nom, sue, anyo, mes, dia);
@@ -106,5 +116,14 @@ class Jefatura extends Empleado {
     public double dameSueldo() {
         double sueldoJefe = super.dameSueldo();
         return sueldoJefe + incentivo;
+    }
+
+    public String tomar_decisiones(String decision) {
+        return "Un miembro de la dirección a decidido: " + decision;
+    }
+
+    public double establece_bonus(double gratificacion) {
+        double prima = 2000;
+        return Trabajadores.bonus_base + prima + gratificacion;
     }
 }

@@ -9,7 +9,5 @@ public class Clase2 {
 
         Clase3 miobj2=new Clase3();
 
-        miobj2.
-
     }
 }
