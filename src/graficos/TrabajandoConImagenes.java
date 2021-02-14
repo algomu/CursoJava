@@ -37,16 +37,26 @@ class LaminaConImagen extends JPanel {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        //File miimagen=new File("/Users/algomu/Documents/PruebasJava/CursoJava/src/graficos/Undead.png");
-        
+        // Se podria llevar la imagen al constructor, ahora mismo es por defecto.
         try {
-            imagen=ImageIO.read(new File("/Users/algomu/Documents/PruebasJava/CursoJava/src/graficos/Undead.png"));
+            imagen=ImageIO.read(new File("/Users/algomu/Documents/PruebasJava/CursoJava/src/graficos/peque.gif"));
         } catch (IOException e) {
             //TODO: handle exception
             System.out.println("La imagen no se encuentra.");
         }
         
         g.drawImage(imagen, 0, 0, null);
+        int anchoImagen=imagen.getWidth(this);
+        int altoImagen=imagen.getHeight(this);
+
+
+        for (int i = 0; i < 600/anchoImagen; i++) {
+            for (int j = 0; j < 600/altoImagen; j++) {
+                if(i+j>0) {
+                    g.copyArea(0, 0, altoImagen, anchoImagen, anchoImagen*i, altoImagen*j);
+                } 
+            }    
+        }
     }
 
     private Image imagen;
