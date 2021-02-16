@@ -10,7 +10,7 @@ public class Areas {
 
         switch (figura) {
             case 1:
-                int lado=Integer.parseInt(JOptionPane.showInputDialog("Cuanto mide el lado 1?"));
+                int lado=Integer.parseInt(JOptionPane.showInputDialog("Cuanto mide cada lado?"));
                 System.out.println("Su area es " + Math.pow(lado, 2));
                 break;
             case 2:
