@@ -43,7 +43,7 @@ class LaminaConFuentes extends JPanel {
         Font mifuente=new Font("Arial",Font.BOLD,26);
         g2d.setFont(mifuente);
        // g2d.setColor(Color.ORANGE);
-        g2d.drawString("Albert", 100, 100);
+        g2d.drawString("Alberto Gomez", 100, 100);
 
         g2d.setFont(new Font("Arial",Font.ITALIC,20));
         //g2d.setColor(new Color(100, 34, 159).brighter());

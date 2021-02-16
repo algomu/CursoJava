@@ -8,7 +8,7 @@ public class CompruebaMail {
         int pos_arroba  = 0;
         boolean punto   =false;
         
-        String correo = JOptionPane.showInputDialog("Introduce tu correo electronico.");
+        String correo = JOptionPane.showInputDialog("Introduce tu correo electronico: ");
         
         // El correo debe tener solo una @ y, al menos, un punto mas alla de la arroba y que no sea el ultimo caracter.
         for (int i = 0; i < correo.length(); i++) {
