@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TrabajandoConImagenes",
+            "request": "launch",
+            "mainClass": "graficos.TrabajandoConImagenes",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrabajandoConFuentes",
+            "request": "launch",
+            "mainClass": "graficos.TrabajandoConFuentes",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch EscribiendoEnMarco",
+            "request": "launch",
+            "mainClass": "graficos.EscribiendoEnMarco",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreandoMarcoCentral",
+            "request": "launch",
+            "mainClass": "graficos.CreandoMarcoCentral",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrabajandoColores",
+            "request": "launch",
+            "mainClass": "graficos.TrabajandoColores",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaDibujo",
+            "request": "launch",
+            "mainClass": "graficos.PruebaDibujo",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreandoMarcos",
+            "request": "launch",
+            "mainClass": "graficos.CreandoMarcos",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
