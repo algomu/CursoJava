@@ -29,7 +29,7 @@ public class Areas {
                 System.out.printf( "%1.4f" , Math.PI * Math.pow(radio, 2)) ;                           
                 break;
             default:
-                System.out.println("Introduce un valor valido...");
+                System.out.println("Introduce un valor valido, por favor...");
                 break;
         }
 
