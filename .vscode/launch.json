@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TrabajandoConFuentes",
+            "request": "launch",
+            "mainClass": "graficos.TrabajandoConFuentes",
+            "projectName": "CursoJava_81061b20"
+        },
+        {
+            "type": "java",
+            "name": "Launch PesoIdeal",
+            "request": "launch",
+            "mainClass": "primerospasos.PesoIdeal",
+            "projectName": "CursoJava_81061b20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Areas",
+            "request": "launch",
+            "mainClass": "primerospasos.Areas",
+            "projectName": "CursoJava_81061b20"
+        },
+        {
+            "type": "java",
             "name": "Launch TrabajandoConImagenes",
             "request": "launch",
             "mainClass": "graficos.TrabajandoConImagenes",
