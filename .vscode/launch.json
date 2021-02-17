@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Areas",
+            "request": "launch",
+            "mainClass": "primerospasos.Areas",
+            "projectName": "CursoJava_86bce1e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Edad",
+            "request": "launch",
+            "mainClass": "primerospasos.Edad",
+            "projectName": "CursoJava_86bce1e9"
+        },
+        {
+            "type": "java",
             "name": "Launch TrabajandoConBotones",
             "request": "launch",
             "mainClass": "graficos.TrabajandoConBotones",
