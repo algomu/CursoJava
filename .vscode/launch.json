@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TrabajandoConBotones",
+            "request": "launch",
+            "mainClass": "graficos.TrabajandoConBotones",
+            "projectName": "CursoJava_3c3cccfe"
+        },
+        {
+            "type": "java",
             "name": "Launch TrabajandoConFuentes",
             "request": "launch",
             "mainClass": "graficos.TrabajandoConFuentes",
