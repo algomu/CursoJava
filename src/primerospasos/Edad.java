@@ -15,7 +15,7 @@ public class Edad {
         }
 */
         if (edad < 18) {
-            System.out.println("Lo siento, no puedes beber alcohol!!");
+            System.out.println("Lo siento, no puedes beber alcohol!!!");
         } else if (edad < 40 ) {
             System.out.println("Aquí tienes una cervecita.");
         } else if (edad < 65 ) {
